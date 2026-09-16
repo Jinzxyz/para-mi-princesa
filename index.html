@@ -49,6 +49,11 @@
 
   * { box-sizing: border-box; }
 
+  html, body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold) var(--bg);
+  }
+
   body {
     margin: 0;
     background: var(--bg);
@@ -57,8 +62,6 @@
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
-    scrollbar-width: thin;
-    scrollbar-color: var(--gold) var(--bg);
   }
 
   /* Custom Scrollbar for Chrome, Edge, and Safari */
